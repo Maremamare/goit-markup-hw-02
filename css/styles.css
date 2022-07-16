@@ -39,6 +39,11 @@ body {
 	letter-spacing: 0.03em;
 }
 
+.logo:hover,
+.logo:focus {
+	color: var(--accent-color);
+}
+
 /*-------------------------header-------------------------*/
 
 .header-logo {
@@ -228,6 +233,7 @@ body {
 .contacts-logo-accent {
 	color: var(--accent-color);
 }
+
 .contacts-link {
 	font-family: "Roboto";
 	font-style: normal;
@@ -236,6 +242,11 @@ body {
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	color: var(--second-title-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+	color: var(--accent-color);
 }
 
 .contacts-link-auth {
